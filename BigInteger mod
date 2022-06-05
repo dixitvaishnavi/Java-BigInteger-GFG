@@ -1,0 +1,10 @@
+class MathematicalOperation{
+    
+    static BigInteger mod(BigInteger x, BigInteger y){
+        // Your code here 
+        
+         BigInteger result = y.mod(x);
+         return result;
+    }
+    
+}
